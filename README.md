@@ -27,10 +27,6 @@ TBD
 ### Output data
 3. Jim Yoon, Stephen Ferencz, & Travis Thurber. To be made available via MSDLIVE https://doi.org/10.57931/2565944
 
-Human, I.M. (2021). My output dataset name [Data set]. DataHub. https://doi.org/some-doi-number
-
-_your output data references here_
-
 
 ## Contributing modeling software
 | Model             | Version | Repository Link | DOI                 |
@@ -43,10 +39,7 @@ _your output data references here_
 2. Step __1__ produces a consolidated csv file with results for all scenario/parameter combinations. These are made available in the `raw_outputs` folder of __[3]__
 
 ## Reproduce my figures
-Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
 
-| Figure Number(s) | Script Name | Description | How to Run |
-|  | --- | --- | --- |
-| 1 | Conceptual Model Diagram - Manually generated in Powerpoint; Map of grid cells generated in QGIS |
-| 2, 3, 4 | `grid_cell_depletion_post_process.py` from __[1]__ | Figs 2-4 developed through running model output through Python script, spatial joining to grid cells visualization in QGIS, and final touchups in Inkscape  |
+3. Figure 1 - Conceptual Model Diagram: Manually generated in Powerpoint; Map of grid cells generated in QGIS |
+4. Figures 2-4 - Depletion results: Process raw output from Step __2__ above through `grid_cell_depletion_post_process.py` in __[1]__. Spatial joins to grid cells & aquifers and further visualization conducted in QGIS. Final touch-ups performed using Inkscape.
 
